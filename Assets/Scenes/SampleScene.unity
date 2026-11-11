@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.26153788, y: -0, z: -0, w: 0.9651932}
+  m_LocalPosition: {x: -2.44, y: 5, z: -15.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.323, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,7 +432,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1152061053
+--- !u!1001 &1002644514
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -442,7 +442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: feb6d3e1553683a4ab04ff8072ec8d00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.37652
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: feb6d3e1553683a4ab04ff8072ec8d00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: feb6d3e1553683a4ab04ff8072ec8d00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1.62534
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: feb6d3e1553683a4ab04ff8072ec8d00, type: 3}
       propertyPath: m_LocalRotation.w
@@ -483,7 +483,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: feb6d3e1553683a4ab04ff8072ec8d00, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ef555ddbf7f447045975d720fcd2fcd1, type: 2}
+      objectReference: {fileID: 2100000, guid: 3e31c22b921ecbf4d8c445fab5fc3e36, type: 2}
     - target: {fileID: 919132149155446097, guid: feb6d3e1553683a4ab04ff8072ec8d00, type: 3}
       propertyPath: m_Name
       value: Suzanne
@@ -500,4 +500,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1152061053}
+  - {fileID: 1002644514}

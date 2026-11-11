@@ -56,7 +56,6 @@ Shader "Custom/RimLighting"
 
                 // Calculate the view direction in world space (from the camera to the surface)
                 float3 worldPosWS = TransformObjectToWorld(IN.positionOS.xyz);
-
                 OUT.viewDirWS = normalize(GetCameraPositionWS() - worldPosWS);
 
                 return OUT;
@@ -67,12 +66,10 @@ Shader "Custom/RimLighting"
             {
                 // Normalize the world space normal and view direction
                 half3 normalWS = normalize(IN.normalWS);
-
                 half3 viewDirWS = normalize(IN.viewDirWS);
 
                 // Rim lighting calculation (using dot product between normal and view direction)
                 half rimFactor = 1.0 - saturate(dot(viewDirWS, normalWS));
-
                 half rimLighting = pow(rimFactor, _RimPower);
 
                 // Combine rim lighting color with the base color
