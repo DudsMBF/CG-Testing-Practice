@@ -99,10 +99,6 @@ Shader "Custom/MovingDecal"
 
                 half4 mainTexColor = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, IN.uv);
 
-                // Sample the decal texture
-
-                // If _ShowDecal is 1, blend the decal with the main texture; otherwise, use the main texture only
-
                 float2 scrolledUV = IN.uv + float2(0, _Time.y * _LineSpeed * 0.1);
                 half4 decalTexColor = SAMPLE_TEXTURE2D(_DecalTex, sampler_DecalTex, scrolledUV);
 
